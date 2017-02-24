@@ -1,0 +1,8 @@
+services:
+    api.user_manager:
+        class: Guikingone\UserBundle\Managers\Api\UserManager
+        arguments:
+            - '@doctrine.orm.entity_manager'
+            - '@session'
+            - '@security.authorization_checker'
+            - '@event_dispatcher'

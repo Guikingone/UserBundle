@@ -1,0 +1,7 @@
+services:
+
+    api.actions_register:
+        class: Guikingone\UserBundle\Action\Api\SecurityAction
+        arguments:
+            - '@api.security_manager'
+            - '@api.security_responder'

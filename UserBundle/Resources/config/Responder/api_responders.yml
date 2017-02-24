@@ -1,0 +1,5 @@
+services:
+
+    api.security_register_responder:
+        class: Guikingone\UserBundle\Responder\RegisterResponder
+        arguments:

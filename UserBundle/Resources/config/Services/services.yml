@@ -1,0 +1,4 @@
+services:
+#    guikingone_user.example:
+#        class: Guikingone\UserBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
